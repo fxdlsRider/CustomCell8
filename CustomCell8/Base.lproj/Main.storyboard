@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z1j-xT-6q3">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15705"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,32 +22,20 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dragon1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xfb-ew-ygq">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dragon1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xfb-ew-ygq">
                                             <rect key="frame" x="41" y="36" width="293" height="200"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" red="0.76594823599999995" green="0.85921531920000005" blue="0.85971021650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="200" id="XGx-Lo-gLg"/>
-                                            </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TS8-Zf-sZY">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TS8-Zf-sZY">
                                             <rect key="frame" x="36" y="253" width="303" height="25"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="25" id="1JI-5O-C0v"/>
-                                            </constraints>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="Xfb-ew-ygq" firstAttribute="leading" secondItem="IGi-dB-bdc" secondAttribute="leadingMargin" constant="25" id="40u-XW-POq"/>
-                                        <constraint firstItem="Xfb-ew-ygq" firstAttribute="top" secondItem="IGi-dB-bdc" secondAttribute="topMargin" constant="25" id="Lac-WY-l5e"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="TS8-Zf-sZY" secondAttribute="bottom" constant="11" id="dUe-8q-Kfb"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="TS8-Zf-sZY" secondAttribute="trailing" constant="20" id="niB-BA-Uff"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="Xfb-ew-ygq" secondAttribute="trailing" constant="25" id="pwJ-Sa-tAH"/>
-                                        <constraint firstItem="TS8-Zf-sZY" firstAttribute="leading" secondItem="IGi-dB-bdc" secondAttribute="leadingMargin" constant="20" id="rss-l7-Q9i"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.88235294119999996" green="0.43921568630000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
