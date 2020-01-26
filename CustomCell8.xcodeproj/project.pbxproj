@@ -13,6 +13,10 @@
 		3AC863B023DDA4B400C50A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC863AE23DDA4B400C50A89 /* Main.storyboard */; };
 		3AC863B223DDA4B700C50A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC863B123DDA4B700C50A89 /* Assets.xcassets */; };
 		3AC863B523DDA4B700C50A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC863B323DDA4B700C50A89 /* LaunchScreen.storyboard */; };
+		3AC863BD23DDA50400C50A89 /* DragonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC863BC23DDA50400C50A89 /* DragonStruct.swift */; };
+		3AC863BF23DDA54D00C50A89 /* DragonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC863BE23DDA54D00C50A89 /* DragonCell.swift */; };
+		3AC863C223DDA68E00C50A89 /* dragon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC863C023DDA68E00C50A89 /* dragon1.png */; };
+		3AC863C323DDA68E00C50A89 /* dragon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AC863C123DDA68E00C50A89 /* dragon2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3AC863B123DDA4B700C50A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AC863B423DDA4B700C50A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AC863B623DDA4B700C50A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC863BC23DDA50400C50A89 /* DragonStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonStruct.swift; sourceTree = "<group>"; };
+		3AC863BE23DDA54D00C50A89 /* DragonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonCell.swift; sourceTree = "<group>"; };
+		3AC863C023DDA68E00C50A89 /* dragon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon1.png; sourceTree = "<group>"; };
+		3AC863C123DDA68E00C50A89 /* dragon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dragon2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,13 @@
 				3AC863AA23DDA4B400C50A89 /* SceneDelegate.swift */,
 				3AC863AC23DDA4B400C50A89 /* ViewController.swift */,
 				3AC863AE23DDA4B400C50A89 /* Main.storyboard */,
+				3AC863BE23DDA54D00C50A89 /* DragonCell.swift */,
+				3AC863BC23DDA50400C50A89 /* DragonStruct.swift */,
 				3AC863B123DDA4B700C50A89 /* Assets.xcassets */,
 				3AC863B323DDA4B700C50A89 /* LaunchScreen.storyboard */,
 				3AC863B623DDA4B700C50A89 /* Info.plist */,
+				3AC863C023DDA68E00C50A89 /* dragon1.png */,
+				3AC863C123DDA68E00C50A89 /* dragon2.jpg */,
 			);
 			path = CustomCell8;
 			sourceTree = "<group>";
@@ -125,9 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC863C223DDA68E00C50A89 /* dragon1.png in Resources */,
 				3AC863B523DDA4B700C50A89 /* LaunchScreen.storyboard in Resources */,
 				3AC863B223DDA4B700C50A89 /* Assets.xcassets in Resources */,
 				3AC863B023DDA4B400C50A89 /* Main.storyboard in Resources */,
+				3AC863C323DDA68E00C50A89 /* dragon2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC863BF23DDA54D00C50A89 /* DragonCell.swift in Sources */,
 				3AC863AD23DDA4B400C50A89 /* ViewController.swift in Sources */,
+				3AC863BD23DDA50400C50A89 /* DragonStruct.swift in Sources */,
 				3AC863A923DDA4B400C50A89 /* AppDelegate.swift in Sources */,
 				3AC863AB23DDA4B400C50A89 /* SceneDelegate.swift in Sources */,
 			);

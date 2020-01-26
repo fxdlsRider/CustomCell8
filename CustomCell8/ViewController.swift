@@ -8,13 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class TableViewController: UITableViewController {
+    
+    let dragon = DragonStruct(dragonImage: ["dragon1, dragon2"], dragonLabel: "Random dragons live here")
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dragon.dragonImage.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "DragonCell", for: indexPath) as? DragonCell else { fatalError() }
+        
+        cell.dragonImage.image = UIImage(named: dragon.dragonImage[indexPath.row])
+        cell.dragonLabel.text = dragon.dragonLabel
+        
+        return cell
+    }
 }
-
